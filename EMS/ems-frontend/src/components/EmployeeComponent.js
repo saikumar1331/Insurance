@@ -74,7 +74,7 @@ const EmployeeComponent = () => {
                                     <label className = "form-label"> Insurance Name :</label>
                                     <input
                                         type = "text"
-                                        placeholder = "Enter Insurance Type"
+                                        placeholder = "Enter Insurance Name"
                                         name = "firstName"
                                         className = "form-control"
                                         value = {firstName}
