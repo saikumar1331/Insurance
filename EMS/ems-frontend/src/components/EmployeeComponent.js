@@ -71,7 +71,7 @@ const EmployeeComponent = () => {
                         <div className = "card-body">
                             <form>
                                 <div c lassName = "form-group mb-2">
-                                    <label className = "form-label"> Insurance Type :</label>
+                                    <label className = "form-label"> Insurance Name :</label>
                                     <input
                                         type = "text"
                                         placeholder = "Enter Insurance Type"
@@ -111,7 +111,7 @@ const EmployeeComponent = () => {
                                     </input>
                                 </div>
 
-                                <button className = "btn btn-success" onClick = {(e) => saveOrUpdateEmployee(e)} >Submit </button>
+                                <button className = "btn btn-success" onClick = {(e) => saveOrUpdateEmployee(e)} >Save </button>
                          </form>
 
                         </div>
