@@ -85,11 +85,11 @@ const EmployeeComponent = () => {
                                 </div>
 
                                 <div className = "form-group mb-2">
-                                    <label className = "form-label"> Insurance Policy :</label>
+                                    <label className = "form-label"> Insurance Type :</label>
                                     <input
                                         type = "text"
-                                        placeholder = "Enter Policy"
-                                        name = "Insurancepolicy"
+                                        placeholder = "Enter Type"
+                                        name = "Insurance Type"
                                         className = "form-control"
                                         
                                         value = {lastName}
@@ -113,13 +113,10 @@ const EmployeeComponent = () => {
 
                                 <button className = "btn btn-success" onClick = {(e) => saveOrUpdateEmployee(e)} >Save </button>
                          </form>
-
                         </div>
                     </div>
                 </div>
-
            </div>
-
         </div>
     )
 }
